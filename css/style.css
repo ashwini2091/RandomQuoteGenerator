@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 12px;
+  background-color: black;
+  font-family: Didot, serif;
+}
+
+.quote-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+#quote-box {
+  background-color: #2c3e50;
+  text-align: center;
+  width: 38em;
+  height: 20em;
+  max-width: 58em;
+  border-radius: 1.25em;
+}
+
+#text {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: 1.5em;
+  font-weight: 400;
+  margin: 1.25em 1em;
+  animation: text 2s;
+  color: whitesmoke;
+}
+
+#author {
+  font-size: 1.5em;
+  font-weight: 400;
+  margin: 1.25em 1em;
+  color: whitesmoke;
+}
+@keyframes text {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#new-quote {
+  float: right;
+  margin-right: 1.5em;
+  border-radius: 2em;
+  font-weight: 400;
+  padding: 0.5em;
+  border: none;
+}
+
+#tweet-quote {
+  float: left;
+  margin-left: 1.5em;
+  color: #2c3e50;
+}
+
+.fa-twitter-square {
+  font-size: 2.5em;
+  color: whitesmoke;
+}
